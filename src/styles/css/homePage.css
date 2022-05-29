@@ -1,0 +1,119 @@
+.main-content {
+  width: 100%;
+  padding: 40px 0;
+}
+.main-content #home-hero {
+  width: 100%;
+}
+.main-content #home-hero .main-img {
+  position: relative;
+}
+.main-content #home-hero .main-img img {
+  width: 100%;
+}
+.main-content #home-hero .main-img span {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  padding: 6px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.main-content #home-hero .main-img span:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.main-content #home-hero .main-img .next {
+  right: 10px;
+}
+.main-content #home-hero .main-img .prev {
+  left: 10px;
+}
+.main-content #policy {
+  padding: 15px 0;
+}
+.main-content #policy .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-content #policy .list .policy-img {
+  border: 1px solid #009234;
+  border-radius: 10px;
+  width: 23%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 10px;
+}
+.main-content #policy .list .policy-img .img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.main-content #policy .list .policy-img .img img {
+  width: 100%;
+}
+.main-content #policy .list .policy-img .info {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #01a14b;
+  width: calc(100% - 70px);
+  text-align: center;
+}
+.main-content #products {
+  padding-top: 40px;
+}
+.main-content #products .pro-nav {
+  width: 40%;
+  margin: 0 auto;
+}
+.main-content #products .pro-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.main-content #products .pro-nav ul li {
+  width: 30%;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.main-content #products .pro-nav ul li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+}
+.main-content #products .pro-nav ul li:hover a, .main-content #products .pro-nav ul li.active a {
+  color: #01a14b;
+  border-bottom-color: #01a14b;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@keyframes showSlide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=homePage.css.map */
